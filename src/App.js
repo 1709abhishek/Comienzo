@@ -13,11 +13,18 @@ import NameList from './components/NameList';
 import Form from './components/Form';
 import LifeCycleA from './components/LifeCycleA';
 import LifeCycleB from './components/LifeCycleB';
+import Table from './components/Table';
+import PureComp from './components/PureComp';
+import ParentComp from './components/ParentComp';
+import RefsDemo from './components/RefsDemo';
 
 function App() {
   return (
     <div className="App">
-      <LifeCycleA />
+      <RefsDemo />
+      {/* <ParentComp /> */}
+      {/* <Table /> */}
+      {/* <LifeCycleA /> */}
       {/* <Form /> */}
       {/* <NameList /> */}
       {/* <UserGreeting /> */}
